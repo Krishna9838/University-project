@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna Layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(20, 24, 61);
+        }
+        .header{
+            background-color: rgb(20, 24, 61);
+            color: white;
+            width: 100%;
+            height:40px ;
+            padding-bottom: 13px;
+        }
+        li{
+            display: inline-block;
+            text-decoration: none;
+           
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            color: red;
+            font-size: 20px;
+            transition: 1s;
+        }
+        .left{
+            background-color: rgb(20, 24, 61);
+            width: 50%;
+            height: 550px;
+            display: inline-block;
+            cursor: pointer;
+            background-image: url("01.JPG");
+            background-size: cover;
+        
+        }.right{
+            background-color: rgb(144, 214, 12);
+            width: 50%;
+            height: 550px;
+            display: inline-block;
+            background-image: url("02.JPG");
+            background-size: cover;
+        }
+        .footer{
+            width: 100%;
+            height: 80px;
+            background-color: rgb(20, 24, 61);
+            color: white;
+        }
+        p{
+            text-align: center;
+            padding-top: 30px;
+        }
+        li{
+            margin: 20px;
+        }
+        .un{
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li class="un"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </div>
+    <div class="left">T</div><div class="right"></div>
+    <div class="footer"> 
+       <p> This is our first html css layout &copy;copyrihgt with Krishna</p>
+    </div>
+</body>
+</html>
